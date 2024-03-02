@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "simply-streaming"
+version = "0.1.0"
+description = "simple streaming in a voicebot"
+authors = ["Manas <manas.gooner11@gmail.com>"]
+readme = "README.md"
+packages = [{include = "streaming"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
